@@ -17,8 +17,7 @@
   </div>
   <div class="field form-group">
     <%= f.label :genre_id %><br>
-    <%= f.collection_select :genre_id, Genre.order('name'), :id, :name,
-                    {prompt: "Choose a Genre"},  %>
+    <%= f.collection_select :genre_id, Genre.order('name'), :id, :name, {prompt: "Choose a Genre"} %>
   </div>
   <div class="actions form-group">
     <%= f.submit %>
