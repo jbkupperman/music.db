@@ -27,6 +27,8 @@ gem 'thin'
 
 gem 'starter_generators'
 
+gem 'annotate', '~> 2.6.6'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
